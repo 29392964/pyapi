@@ -1,0 +1,6 @@
+pyapi:
+  image: pyapi:latest
+  volumes:
+    - "$PWD/app:/app"
+  command:
+    python /app/run.py
